@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 class Pokemon extends React.Component {
   render() {
     const {name, type, averageWeight, image, id} = this.props.pokemon;
-    console.log(this.props.pokemon)
     return (
       <div className="pokemon">
         <div>
